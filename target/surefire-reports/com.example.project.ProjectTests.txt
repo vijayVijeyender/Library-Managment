@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.example.project.ProjectTests
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.358 s <<< FAILURE! - in com.example.project.ProjectTests
+addBook_test  Time elapsed: 0.289 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at com.example.project.ProjectTests.addBook_test(ProjectTests.java:119)
+
+addUser_test  Time elapsed: 0.032 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at com.example.project.ProjectTests.addUser_test(ProjectTests.java:82)
+
+borrowBook_test  Time elapsed: 0.034 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at com.example.project.ProjectTests.borrowBook_test(ProjectTests.java:163)
+
